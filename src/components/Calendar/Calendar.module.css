@@ -1,0 +1,20 @@
+.calender_div {
+    position: absolute;
+    right: -300px;
+    bottom: 58px;
+    transition: 0.3s;
+    opacity: 0;
+}
+
+#showCal {
+    right: 12px !important;
+    opacity: 1;
+}
+
+.da {
+    color: white !important;
+    border-radius: 5px;
+    background-color: rgba(150, 150, 200, 0.2) !important;
+    backdrop-filter: blur(10px);
+    border: 0 !important;
+}

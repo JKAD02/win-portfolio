@@ -1,0 +1,14 @@
+body {
+    overflow: hidden;
+}
+
+.homeScreen {
+    background-image: url('../../img/wallpaper/dark/img0.jpg');
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 100vh;
+    min-width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

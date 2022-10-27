@@ -1,0 +1,103 @@
+.lockScreen {
+    background-image: url('../../img/wallpaper/lock.jpg');
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100vw;
+    min-height: 100vh;
+    z-index: 1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.date_time_div {
+    display: inline-block;
+    position: relative;
+    top: 160px;
+    color: #F7FAFC;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.time_div {
+    font-size: 64px;
+    font-weight: 600;
+}
+
+.date_div {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.status_div {
+    position: absolute;
+    bottom: 25px;
+    right: 25px;
+    display: flex;
+    gap: 15px;
+    color: #F7FAFC;
+    z-index: 1;
+}
+
+.profile_div {
+    backdrop-filter: blur(20px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100vw;
+    min-height: 100vh;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 500;
+    color: #F7FAFC;
+    animation-name: popUp;
+    animation-duration: 1s;
+}
+
+.img_div {
+    margin-bottom: 15px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: linear-gradient(189deg, rgba(0, 175, 185, 1) 0%, rgba(0, 129, 167, 1) 100%);
+    overflow: hidden;
+}
+
+.sign_div {
+    font-size: 13px;
+    font-weight: normal;
+    height: 17px;
+    width: 40px;
+    padding: 5px 36px;
+    background-color: #4761E7;
+    border-radius: 4px;
+    margin-top: 24px;
+    cursor: pointer;
+    border: 2px solid transparent;
+}
+
+.linkDiv {
+    color: #F7FAFC;
+    text-decoration: none;
+}
+
+.sign_div:hover {
+    border: 2px solid #a6b1b8;
+}
+
+@keyframes popUp {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
