@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import styles from './LockScreen.module.css'
-import myPic from '../../img/my pic.png'
+import myPic from '../../img/Wallpaper.jpg'
 import { Link } from 'react-router-dom'
 
 const LockScreen = () => {
