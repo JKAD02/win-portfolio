@@ -33,7 +33,7 @@ const LockScreen = () => {
           <div className={styles.img_div}>
             <img width={"100%"} src={myPic} alt="" />
           </div>
-          <div>Jenish Kathrotiya</div>
+          <div>Jhon</div>
           <div className={styles.sign_div}>
             <Link to='homeScreen' className={styles.linkDiv}>Sign In</Link>
           </div>
