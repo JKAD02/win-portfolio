@@ -31,7 +31,7 @@ const LockScreen = () => {
       {profile ? (
         <div className={styles.profile_div}>
           <div className={styles.img_div}>
-            <img width={"100%"} src={myPic} alt="" />
+            <img width={"100%"} height={"100%"} src={myPic} alt="" />
           </div>
           <div>Jhon</div>
           <div className={styles.sign_div}>
